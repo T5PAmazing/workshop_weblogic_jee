@@ -25,7 +25,7 @@ https://education.github.com/git-cheat-sheet-education.pdf
 3. Neue Datei hinzufügen
 4. Änderung vornehmen und commiten
 
-#Aufgabenstellung
+# Aufgabenstellung
 
 1. Pull Workshop Repo
 2. Änderung vornehmen
