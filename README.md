@@ -8,7 +8,7 @@ https://cli.github.com/
 GithubDesktop
 https://desktop.github.com/
 
-Git Bash <-- This is what we want to use
+Git Bash (We should use this)
 https://gitforwindows.org/
 
 Git Erklärung
@@ -19,13 +19,13 @@ https://education.github.com/git-cheat-sheet-education.pdf
 
 ![image](https://github.com/T5PAmazing/workshop_weblogic_jee/assets/54843474/52cebe36-866d-4b33-b42f-052b484f472a)
 
-
-# Ablauf
-
+# Übung
 1. Lokales Git Repo anlegen
 2. Rep Status überprüfen
 3. Neue Datei hinzufügen
 4. Änderung vornehmen und commiten
+
+#Aufgabenstellung
 
 1. Pull Workshop Repo
 2. Änderung vornehmen
