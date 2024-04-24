@@ -21,7 +21,7 @@ https://education.github.com/git-cheat-sheet-education.pdf
 
 # Übung
 1. Lokales Git Repo anlegen
-2. Rep Status überprüfen
+2. Repo Status überprüfen
 3. Neue Datei hinzufügen
 4. Änderung vornehmen und commiten
 
