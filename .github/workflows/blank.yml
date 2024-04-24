@@ -21,10 +21,9 @@ jobs:
       - name: Check if PR is from a spcific user
         id: check_user
         run: |
-          if [ "${{ github.actor }}" = "3rr0r4x4" ]: 
-          then 
+          if [ "${{ github.actor }}" = "3rr0r4x4" ]; then 
             echo "Matched the user"
-            echo "::set-output name=should_clos::true"
+            echo "::set-output name=should_close::true"
           else 
             echo "Did not match the user"
             echo "::set-output name=should_close:false"
