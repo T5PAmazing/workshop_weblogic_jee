@@ -26,10 +26,10 @@ jobs:
             echo "::set-output name=should_close::true"
           else 
             echo "Did not match the user"
-            echo "::set-output name=should_close:false"
+            echo "::set-output name=should_close::false"
           fi
       - name: Close PR
-        if: steps.check_user.out-puts.should_close == 'true'
+        if: steps.check_user.outputs.should_close == 'true'
         uses: peter-evans/close-pull@v1
         with: 
           comment: "Auto-closing pull request from designated user"
