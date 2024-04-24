@@ -32,4 +32,6 @@ jobs:
         if: steps.check_user.outputs.should_close == 'true'
         uses: peter-evans/close-pull@v1
         with: 
-          comment: "Auto-closing pull request from designated user"
+          pull-request-number: 1
+          comment: Auto-closing pull request
+          delete-branch: true
